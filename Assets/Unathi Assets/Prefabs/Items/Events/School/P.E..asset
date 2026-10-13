@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d7a38d8ee96e654ea940b9be7970783, type: 3}
+  m_Name: P.E.
+  m_EditorClassIdentifier: 
+  eventName: P.E.
+  eventType: 0
+  description: The school is strictly enforcing the dress code for sports day today.
+  requirements:
+  - item: {fileID: 11400000, guid: 88c9df4007301614db156ff02bd11f84, type: 2}
+    amount: 3
+    stressPenalty: 1
+  - item: {fileID: 11400000, guid: 9618825858b793c4582b710755da149f, type: 2}
+    amount: 2
+    stressPenalty: 1
+  - item: {fileID: 11400000, guid: 07eac0eca9a850c4aa76365106ce3863, type: 2}
+    amount: 1
+    stressPenalty: 1
+  - item: {fileID: 11400000, guid: 077a49734a48029409ae28ae8f45eb56, type: 2}
+    amount: 1
+    stressPenalty: 1
+  successText: She stayed hydrated and won the 100m sprint!
+  failureText: She had to sit on the bleachers!
